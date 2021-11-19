@@ -9,7 +9,7 @@ export_ BLESSED_MONTY_BIN   $PWD/bin
 export_ BLESSED_MONTY_DST   $PWD/.build/monty
 
 [ -d $BLESSED_MONTY_DST ] || {
-    git clone 
+    git clone  \
         https://github.com/magicmonty/bash-git-prompt \
         ${BLESSED_MONTY_DST}
 }
