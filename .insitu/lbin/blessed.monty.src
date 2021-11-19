@@ -1,0 +1,2 @@
+#!/bin/sh
+. ${BLESSED_MONTY_BIN}/src.blessed.monty

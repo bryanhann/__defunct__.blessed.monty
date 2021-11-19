@@ -1,0 +1,13 @@
+#!/bin/sh
+case "$1" in
+
+    (activate)
+    . ${BLESSED_MONTY_DST}/gitprompt.sh
+    ;;
+
+    (*)
+    echo USAGE:
+    echo "    .  blessed.monty.src activate"
+    ;;
+
+esac
