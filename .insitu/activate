@@ -1,9 +1,8 @@
 #!/source/this/sh
-
-cp ${PWD}/lbin/* ${HOME}/.local/bin/
 cd ..
-export_ () { export $1=$2; }
+poet.baptize $PWD/bin/bl.monty ~/.local/bin/bl.monty
 
+export_ () { export $1=$2; }
 export_ BLESSED_MONTY       $PWD
 export_ BLESSED_MONTY_BIN   $PWD/bin
 export_ BLESSED_MONTY_DST   $PWD/.build/monty
