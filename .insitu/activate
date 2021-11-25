@@ -1,6 +1,6 @@
 #!/source/this/sh
 cd ..
-poet.baptize $PWD/bin/bl.monty ~/.local/bin/bl.monty
+poet.blessed.bless $PWD/bin/bl.monty ~/.local/bin/bl.monty
 
 export_ () { export $1=$2; }
 export_ BLESSED_MONTY       $PWD
